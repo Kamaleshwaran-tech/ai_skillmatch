@@ -1,0 +1,494 @@
+{
+  "categories": [
+    "programming_languages",
+    "frontend",
+    "backend",
+    "databases",
+    "cloud",
+    "devops",
+    "data_science",
+    "machine_learning",
+    "natural_language_processing",
+    "testing",
+    "version_control"
+  ],
+  "skills": [
+    {
+      "canonical_name": "JavaScript",
+      "category": "programming_languages",
+      "aliases": ["javascript", "js", "ecmascript"],
+      "patterns": [
+        "\\bJavaScript\\b",
+        "\\bJS\\b",
+        "\\bECMAScript\\b"
+      ],
+      "boundary_sensitive": true
+    },
+    {
+      "canonical_name": "TypeScript",
+      "category": "programming_languages",
+      "aliases": ["typescript", "ts"],
+      "patterns": [
+        "\\bTypeScript\\b",
+        "\\bTS\\b"
+      ],
+      "boundary_sensitive": true
+    },
+    {
+      "canonical_name": "Python",
+      "category": "programming_languages",
+      "aliases": ["python", "python3", "py"],
+      "patterns": [
+        "\\bPython(?:3)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Java",
+      "category": "programming_languages",
+      "aliases": ["java", "core java"],
+      "patterns": [
+        "\\bJava\\b"
+      ],
+      "boundary_sensitive": true
+    },
+    {
+      "canonical_name": "C",
+      "category": "programming_languages",
+      "aliases": ["c language", "c programming"],
+      "patterns": [
+        "(?<![A-Za-z0-9_#+])C(?![A-Za-z0-9_#+])"
+      ],
+      "requires_context": true,
+      "context_keywords": ["programming", "language", "developer", "embedded", "systems", "c/c++", "software", "code", "coding"]
+    },
+    {
+      "canonical_name": "C++",
+      "category": "programming_languages",
+      "aliases": ["cpp", "cplusplus", "c++"],
+      "patterns": [
+        "\\bC\\+\\+",
+        "\\bCPP\\b"
+      ]
+    },
+    {
+      "canonical_name": "C#",
+      "category": "programming_languages",
+      "aliases": ["csharp", "c#", "c-sharp"],
+      "patterns": [
+        "\\bC#",
+        "\\bCSharp\\b"
+      ]
+    },
+    {
+      "canonical_name": "Go",
+      "category": "programming_languages",
+      "aliases": ["golang", "go lang"],
+      "patterns": [
+        "\\bGolang\\b",
+        "\\bGo language\\b"
+      ]
+    },
+    {
+      "canonical_name": "Rust",
+      "category": "programming_languages",
+      "aliases": ["rust", "rustlang"],
+      "patterns": [
+        "\\bRust(?:lang)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "PHP",
+      "category": "programming_languages",
+      "aliases": ["php", "php7", "php8"],
+      "patterns": [
+        "\\bPHP(?:[0-9])?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Ruby",
+      "category": "programming_languages",
+      "aliases": ["ruby"],
+      "patterns": [
+        "\\bRuby\\b"
+      ]
+    },
+    {
+      "canonical_name": "SQL",
+      "category": "programming_languages",
+      "aliases": ["sql", "structured query language"],
+      "patterns": [
+        "\\bSQL\\b"
+      ]
+    },
+    {
+      "canonical_name": "HTML5",
+      "category": "frontend",
+      "aliases": ["html", "html5"],
+      "patterns": [
+        "\\bHTML(?:5)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "CSS3",
+      "category": "frontend",
+      "aliases": ["css", "css3"],
+      "patterns": [
+        "\\bCSS(?:3)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "React",
+      "category": "frontend",
+      "aliases": ["react", "react.js", "reactjs"],
+      "patterns": [
+        "\\bReact(?:\\.js|js)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Vue.js",
+      "category": "frontend",
+      "aliases": ["vue", "vue.js", "vuejs"],
+      "patterns": [
+        "\\bVue(?:\\.js|js)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Angular",
+      "category": "frontend",
+      "aliases": ["angular", "angular.js", "angularjs", "angular2+"],
+      "patterns": [
+        "\\bAngular(?:\\.js|js)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Next.js",
+      "category": "frontend",
+      "aliases": ["next.js", "nextjs", "next"],
+      "patterns": [
+        "\\bNext(?:\\.js|js)\\b"
+      ]
+    },
+    {
+      "canonical_name": "Redux",
+      "category": "frontend",
+      "aliases": ["redux", "redux toolkit"],
+      "patterns": [
+        "\\bRedux(?: Toolkit)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Tailwind CSS",
+      "category": "frontend",
+      "aliases": ["tailwind", "tailwindcss", "tailwind css"],
+      "patterns": [
+        "\\bTailwind(?:css| CSS)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Material UI",
+      "category": "frontend",
+      "aliases": ["mui", "material-ui", "material ui"],
+      "patterns": [
+        "\\bMaterial[ -]?UI\\b",
+        "\\bMUI\\b"
+      ]
+    },
+    {
+      "canonical_name": "Node.js",
+      "category": "backend",
+      "aliases": ["node", "node.js", "nodejs", "node js"],
+      "patterns": [
+        "\\bNode(?:\\.js|js)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Express.js",
+      "category": "backend",
+      "aliases": ["express", "express.js", "expressjs"],
+      "patterns": [
+        "\\bExpress(?:\\.js|js)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "FastAPI",
+      "category": "backend",
+      "aliases": ["fastapi", "fast api"],
+      "patterns": [
+        "\\bFastAPI\\b",
+        "\\bFast API\\b"
+      ]
+    },
+    {
+      "canonical_name": "Django",
+      "category": "backend",
+      "aliases": ["django", "django rest framework", "drf"],
+      "patterns": [
+        "\\bDjango(?: REST Framework)?\\b",
+        "\\bDRF\\b"
+      ]
+    },
+    {
+      "canonical_name": "Flask",
+      "category": "backend",
+      "aliases": ["flask"],
+      "patterns": [
+        "\\bFlask\\b"
+      ]
+    },
+    {
+      "canonical_name": "Spring Boot",
+      "category": "backend",
+      "aliases": ["spring", "spring boot", "springboot"],
+      "patterns": [
+        "\\bSpring(?: Boot)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "GraphQL",
+      "category": "backend",
+      "aliases": ["graphql", "graph ql"],
+      "patterns": [
+        "\\bGraphQL\\b"
+      ]
+    },
+    {
+      "canonical_name": "REST API",
+      "category": "backend",
+      "aliases": ["rest", "restful", "rest api", "restful apis"],
+      "patterns": [
+        "\\bREST(?:ful)?(?: APIs?| Services?)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "PostgreSQL",
+      "category": "databases",
+      "aliases": ["postgresql", "postgres", "postgre sql", "psql"],
+      "patterns": [
+        "\\bPostgre(?:[ ]?SQL)?\\b",
+        "\\bPostgres\\b",
+        "\\bPSQL\\b"
+      ]
+    },
+    {
+      "canonical_name": "MySQL",
+      "category": "databases",
+      "aliases": ["mysql"],
+      "patterns": [
+        "\\bMySQL\\b"
+      ]
+    },
+    {
+      "canonical_name": "MongoDB",
+      "category": "databases",
+      "aliases": ["mongodb", "mongo"],
+      "patterns": [
+        "\\bMongo(?:DB)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Redis",
+      "category": "databases",
+      "aliases": ["redis"],
+      "patterns": [
+        "\\bRedis\\b"
+      ]
+    },
+    {
+      "canonical_name": "SQLite",
+      "category": "databases",
+      "aliases": ["sqlite", "sqlite3"],
+      "patterns": [
+        "\\bSQLite(?:3)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Elasticsearch",
+      "category": "databases",
+      "aliases": ["elasticsearch", "elastic search"],
+      "patterns": [
+        "\\bElastic[ ]?search\\b"
+      ]
+    },
+    {
+      "canonical_name": "Amazon Web Services",
+      "category": "cloud",
+      "aliases": ["aws", "amazon web services", "amazon aws"],
+      "patterns": [
+        "\\bAWS\\b",
+        "\\bAmazon Web Services\\b"
+      ]
+    },
+    {
+      "canonical_name": "Google Cloud Platform",
+      "category": "cloud",
+      "aliases": ["gcp", "google cloud", "google cloud platform"],
+      "patterns": [
+        "\\bGCP\\b",
+        "\\bGoogle Cloud(?: Platform)?\\b"
+      ]
+    },
+    {
+      "canonical_name": "Microsoft Azure",
+      "category": "cloud",
+      "aliases": ["azure", "ms azure", "microsoft azure"],
+      "patterns": [
+        "\\b(?:Microsoft )?Azure\\b"
+      ]
+    },
+    {
+      "canonical_name": "Docker",
+      "category": "devops",
+      "aliases": ["docker", "dockerfile", "containerization"],
+      "patterns": [
+        "\\bDocker\\b",
+        "\\bContainerization\\b"
+      ]
+    },
+    {
+      "canonical_name": "Kubernetes",
+      "category": "devops",
+      "aliases": ["kubernetes", "k8s"],
+      "patterns": [
+        "\\bKubernetes\\b",
+        "\\bK8s\\b"
+      ]
+    },
+    {
+      "canonical_name": "CI/CD",
+      "category": "devops",
+      "aliases": ["ci/cd", "continuous integration", "continuous deployment"],
+      "patterns": [
+        "\\bCI/CD\\b",
+        "\\bContinuous Integration\\b"
+      ]
+    },
+    {
+      "canonical_name": "Terraform",
+      "category": "devops",
+      "aliases": ["terraform"],
+      "patterns": [
+        "\\bTerraform\\b"
+      ]
+    },
+    {
+      "canonical_name": "Pandas",
+      "category": "data_science",
+      "aliases": ["pandas"],
+      "patterns": [
+        "\\bPandas\\b"
+      ]
+    },
+    {
+      "canonical_name": "NumPy",
+      "category": "data_science",
+      "aliases": ["numpy"],
+      "patterns": [
+        "\\bNumPy\\b"
+      ]
+    },
+    {
+      "canonical_name": "Machine Learning",
+      "category": "machine_learning",
+      "aliases": ["ml", "machine learning"],
+      "patterns": [
+        "\\bMachine Learning\\b",
+        "\\bML\\b"
+      ],
+      "requires_context_for_acronym": true,
+      "acronym_context_keywords": ["ai", "models", "deep learning", "algorithms", "data science", "pipeline", "predictive", "supervised", "unsupervised"]
+    },
+    {
+      "canonical_name": "Deep Learning",
+      "category": "machine_learning",
+      "aliases": ["deep learning", "dl"],
+      "patterns": [
+        "\\bDeep Learning\\b"
+      ]
+    },
+    {
+      "canonical_name": "PyTorch",
+      "category": "machine_learning",
+      "aliases": ["pytorch"],
+      "patterns": [
+        "\\bPyTorch\\b"
+      ]
+    },
+    {
+      "canonical_name": "TensorFlow",
+      "category": "machine_learning",
+      "aliases": ["tensorflow", "tf"],
+      "patterns": [
+        "\\bTensorFlow\\b"
+      ]
+    },
+    {
+      "canonical_name": "Scikit-Learn",
+      "category": "machine_learning",
+      "aliases": ["scikit-learn", "sklearn", "scikit learn"],
+      "patterns": [
+        "\\bScikit-Learn\\b",
+        "\\bSklearn\\b"
+      ]
+    },
+    {
+      "canonical_name": "Natural Language Processing",
+      "category": "natural_language_processing",
+      "aliases": ["nlp", "natural language processing"],
+      "patterns": [
+        "\\bNatural Language Processing\\b",
+        "\\bNLP\\b"
+      ]
+    },
+    {
+      "canonical_name": "spaCy",
+      "category": "natural_language_processing",
+      "aliases": ["spacy"],
+      "patterns": [
+        "\\bspaCy\\b"
+      ]
+    },
+    {
+      "canonical_name": "Hugging Face Transformers",
+      "category": "natural_language_processing",
+      "aliases": ["transformers", "huggingface", "hugging face", "bert", "gpt"],
+      "patterns": [
+        "\\bHugging[ ]?Face\\b",
+        "\\bTransformers\\b"
+      ]
+    },
+    {
+      "canonical_name": "Pytest",
+      "category": "testing",
+      "aliases": ["pytest"],
+      "patterns": [
+        "\\bPytest\\b"
+      ]
+    },
+    {
+      "canonical_name": "Jest",
+      "category": "testing",
+      "aliases": ["jest"],
+      "patterns": [
+        "\\bJest\\b"
+      ]
+    },
+    {
+      "canonical_name": "Selenium",
+      "category": "testing",
+      "aliases": ["selenium"],
+      "patterns": [
+        "\\bSelenium\\b"
+      ]
+    },
+    {
+      "canonical_name": "Git",
+      "category": "version_control",
+      "aliases": ["git", "github", "gitlab"],
+      "patterns": [
+        "\\bGit\\b",
+        "\\bGitHub\\b",
+        "\\bGitLab\\b"
+      ]
+    }
+  ]
+}

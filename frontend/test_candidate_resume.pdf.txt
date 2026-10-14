@@ -1,0 +1,9 @@
+import puppeteer from 'puppeteer';
+import fs from 'fs';
+import path from 'path';
+import fitz from 'pymupdf';
+
+// 1. Create a real test resume PDF file
+const testPdfPath = path.resolve('test_candidate_resume.pdf');
+console.log('Generating sample test PDF resume at:', testPdfPath);
+// We can generate it using python or node. Let's write the node runner script
