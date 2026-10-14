@@ -71,3 +71,8 @@ pnpm-debug.log*
 *.swo
 .DS_Store
 Thumbs.db
+
+# Report build artifacts (regenerable)
+report/output/
+report/preview/
+report/pagenums.json

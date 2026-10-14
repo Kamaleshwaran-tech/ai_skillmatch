@@ -1,0 +1,447 @@
+{
+  "generated_utc": "2026-10-14T17:36:40.370883+00:00",
+  "provenance": "Outputs produced by executing the project's own services (backend/app/services) inside the report build environment. Resume: repository sample test_candidate_resume.pdf. Corpus: backend/app/taxonomy/sample_jobs.json (offline fixture mode).",
+  "resume": {
+    "file": "test_candidate_resume.pdf",
+    "metadata": {
+      "format": "pdf",
+      "page_count": 1,
+      "has_images": false,
+      "char_count": 869
+    },
+    "sections": [
+      "General",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE"
+    ],
+    "skills": [
+      {
+        "canonical_name": "Amazon Web Services",
+        "matched_text": "AWS",
+        "category": "cloud",
+        "confidence": 1.0,
+        "evidence_snippet": "...d & DevOps: Docker, Kubernetes, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, Jest",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "CI/CD",
+        "matched_text": "CI/CD",
+        "category": "devops",
+        "confidence": 1.0,
+        "evidence_snippet": "...reSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, Jest",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "CSS3",
+        "matched_text": "CSS",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...API, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Docker",
+        "matched_text": "Docker",
+        "category": "devops",
+        "confidence": 1.0,
+        "evidence_snippet": "...ses & Storage: PostgreSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD, Amazon Web Services (AWS), Git - Testin...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Express.js",
+        "matched_text": "Express.js",
+        "category": "backend",
+        "confidence": 1.0,
+        "evidence_snippet": "..., TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5,...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "FastAPI",
+        "matched_text": "FastAPI",
+        "category": "backend",
+        "confidence": 1.0,
+        "evidence_snippet": "...Python, JavaScript, TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Git",
+        "matched_text": "Git",
+        "category": "version_control",
+        "confidence": 1.0,
+        "evidence_snippet": "...vOps: Docker, Kubernetes, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, Jest",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "HTML5",
+        "matched_text": "HTML5",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...ess.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL, Redis, MongoDB - C...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "JavaScript",
+        "matched_text": "JavaScript",
+        "category": "programming_languages",
+        "confidence": 1.0,
+        "evidence_snippet": "- Languages: Python, JavaScript, TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js,...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Jest",
+        "matched_text": "Jest",
+        "category": "testing",
+        "confidence": 1.0,
+        "evidence_snippet": "...s, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, Jest",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Kubernetes",
+        "matched_text": "Kubernetes",
+        "category": "devops",
+        "confidence": 1.0,
+        "evidence_snippet": "...orage: PostgreSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, J...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Material UI",
+        "matched_text": "Material UI",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL, Redis, Mong...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "MongoDB",
+        "matched_text": "MongoDB",
+        "category": "databases",
+        "confidence": 1.0,
+        "evidence_snippet": "...l UI, HTML5, CSS3 - Databases & Storage: PostgreSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD, Amazon Web Ser...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Node.js",
+        "matched_text": "Node.js",
+        "category": "backend",
+        "confidence": 1.0,
+        "evidence_snippet": "...avaScript, TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Materia...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "PostgreSQL",
+        "matched_text": "PostgreSQL",
+        "category": "databases",
+        "confidence": 1.0,
+        "evidence_snippet": "...ilwind CSS, Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Pytest",
+        "matched_text": "Pytest",
+        "category": "testing",
+        "confidence": 1.0,
+        "evidence_snippet": "...ubernetes, CI/CD, Amazon Web Services (AWS), Git - Testing: Pytest, Jest",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Python",
+        "matched_text": "Python",
+        "category": "programming_languages",
+        "confidence": 1.0,
+        "evidence_snippet": "- Languages: Python, JavaScript, TypeScript, SQL - Backend & Frameworks: FastAP...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "React",
+        "matched_text": "React",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...kend & Frameworks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Redis",
+        "matched_text": "Redis",
+        "category": "databases",
+        "confidence": 1.0,
+        "evidence_snippet": "...Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL, Redis, MongoDB - Cloud & DevOps: Docker, Kubernetes, CI/CD, Amazo...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Redux",
+        "matched_text": "Redux",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...Frameworks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases & Stora...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "SQL",
+        "matched_text": "SQL",
+        "category": "programming_languages",
+        "confidence": 1.0,
+        "evidence_snippet": "- Languages: Python, JavaScript, TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js, Express.js - Fron...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "Tailwind CSS",
+        "matched_text": "Tailwind CSS",
+        "category": "frontend",
+        "confidence": 1.0,
+        "evidence_snippet": "...rks: FastAPI, Node.js, Express.js - Frontend: React, Redux, Tailwind CSS, Material UI, HTML5, CSS3 - Databases & Storage: PostgreSQL...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "TypeScript",
+        "matched_text": "TypeScript",
+        "category": "programming_languages",
+        "confidence": 1.0,
+        "evidence_snippet": "- Languages: Python, JavaScript, TypeScript, SQL - Backend & Frameworks: FastAPI, Node.js, Express.js -...",
+        "section": "TECHNICAL SKILLS"
+      },
+      {
+        "canonical_name": "REST API",
+        "matched_text": "RESTful",
+        "category": "backend",
+        "confidence": 0.95,
+        "evidence_snippet": "...d Developer - Cyberdyne Tech (2021 - Present) - Architected RESTful microservices in Python and FastAPI with PostgreSQL databas...",
+        "section": "WORK EXPERIENCE"
+      }
+    ]
+  },
+  "market": {
+    "received": 8,
+    "unique": 8,
+    "duplicates": 0,
+    "doubled_feed_unique": 8,
+    "doubled_feed_duplicates": 8,
+    "total_unique_listings_analyzed": 8,
+    "status": "sufficient_data",
+    "top_skills": [
+      {
+        "skill_name": "Docker",
+        "category": "devops",
+        "matching_listings_count": 4,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 50.0
+      },
+      {
+        "skill_name": "Python",
+        "category": "programming_languages",
+        "matching_listings_count": 4,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 50.0
+      },
+      {
+        "skill_name": "CI/CD",
+        "category": "devops",
+        "matching_listings_count": 3,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 37.5
+      },
+      {
+        "skill_name": "React",
+        "category": "frontend",
+        "matching_listings_count": 3,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 37.5
+      },
+      {
+        "skill_name": "TypeScript",
+        "category": "programming_languages",
+        "matching_listings_count": 3,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 37.5
+      },
+      {
+        "skill_name": "Amazon Web Services",
+        "category": "cloud",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Git",
+        "category": "version_control",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "JavaScript",
+        "category": "programming_languages",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Jest",
+        "category": "testing",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Kubernetes",
+        "category": "devops",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Machine Learning",
+        "category": "machine_learning",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Node.js",
+        "category": "backend",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "NumPy",
+        "category": "data_science",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Pandas",
+        "category": "data_science",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "PostgreSQL",
+        "category": "databases",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Scikit-Learn",
+        "category": "machine_learning",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "Terraform",
+        "category": "devops",
+        "matching_listings_count": 2,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 25.0
+      },
+      {
+        "skill_name": "CSS3",
+        "category": "frontend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Express.js",
+        "category": "backend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "FastAPI",
+        "category": "backend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Google Cloud Platform",
+        "category": "cloud",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Hugging Face Transformers",
+        "category": "natural_language_processing",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Material UI",
+        "category": "frontend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "MySQL",
+        "category": "databases",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Natural Language Processing",
+        "category": "natural_language_processing",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "PyTorch",
+        "category": "machine_learning",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Pytest",
+        "category": "testing",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Redis",
+        "category": "databases",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Redux",
+        "category": "frontend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "SQL",
+        "category": "programming_languages",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "Tailwind CSS",
+        "category": "frontend",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      },
+      {
+        "skill_name": "spaCy",
+        "category": "natural_language_processing",
+        "matching_listings_count": 1,
+        "total_listings_analyzed": 8,
+        "demand_percentage": 12.5
+      }
+    ]
+  }
+}
